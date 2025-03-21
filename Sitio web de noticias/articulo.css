@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.cabeza{
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    box-shadow: 0 4px 6px #0000001a;
+}
+
+.logo{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.sp1{
+    color: blue;
+}
+
+.sp2{
+    color: red;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.navegacion{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navegacion a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 90px;
+    font-weight: 600;
+    font-size: 31px;
+    transition: all 0.3s ease;
+}
+
+.navegacion a:hover{
+    color: #000000;
+    background-color: yellow;
+    border-radius: 2px;
+    padding: 8px;
+}
+
+.seccion{
+    background-color: white;
+    margin: 30px auto;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px #0000001a;
+}
+
+.tituleishon{
+    font-size: 50px;
+    color: #333;
+    margin: 20px;
+}
+
+.imageen{
+    box-shadow: 0 4px 15px #0000001a;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.parrafo{
+    line-height: 1.7;
+    font-size: 27px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    font-size: 30px;
+  }

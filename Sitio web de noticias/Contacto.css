@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.cabeza{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.sp1{
+    color: blue;
+}
+
+.sp2{
+    color: red;
+}
+
+
+.navegacion{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navegacion a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 31px;
+    transition: all 0.3s ease;
+}
+
+.navegacion a:hover{
+    color: #000000;
+    background-color: yellow;
+    border-radius: 2px;
+    padding: 8px;
+}
+
+.pag{
+    width: 50%;
+    margin: 5% auto 5px;
+    border-radius: 40px;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 1px 4px 10px black;
+}
+
+.intaglam{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin: 0px 0px 10px 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.intagramer{
+    width: 90px;
+    height: 80px;
+}
+
+.feibuk{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin: 0px 0px 10px 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.feibuke{
+    width: 90px;
+    height: 80px;
+}
+.feibuk{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin: 0px 0px 10px 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.feibuke{
+    width: 90px;
+    height: 80px;
+}
+
+.gamil{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin: 0px 0px 10px 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.gmailf{
+    width: 100px;
+    height: 100px;
+}
+
+input[type=text]:focus{
+    background-color: lightblue;
+}
+
+input[type=tel]:focus{
+    background-color: lightblue;
+}
+
+
+input[type=text]{
+    width: 100%;
+    border: 3px solid #747b76;
+    resize: none;
+    border-radius: 3px;
+    padding: 13px;
+    font-size: 19px;
+}
+
+label{
+    display: inline-block;
+    padding: 12px 12px 12px 0px;
+    font-size: 25px;
+}
+
+input[type=tel]{
+    width: 100%;
+    border: 3px solid #747b76;
+    resize: none;
+    border-radius: 3px;
+    padding: 13px;
+    font-size: 19px;
+}
+
+input[type=email]{
+    resize: none;
+    padding: 13px;
+    border-radius: 3px;
+    width: 100%;
+    border: 3px solid #747b76;
+    font-size: 19px;
+}
+
+input[type=email]:focus{
+    background-color: lightblue;
+}
+
+textarea{
+    resize: none;
+    padding: 10px;
+    border-radius: 3px;
+    width: 100%;
+    border: 3px solid #747b76;
+    font-size: 19px;
+
+}
+
+button{
+    background-color: rgb(175, 175, 42);
+    border: none;
+    color: white;
+    padding: 15px;
+    margin:  4px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 30px;
+
+   }
+   
+button:hover{
+    background-color: green;
+}
+
+   h2{
+    text-align: center;
+    font-size: 30px;
+   }
+
+   h1{
+    font-size: 40px;
+    text-align: center;
+   }
+
+   h3{
+    font-size: 25px;
+   }
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+  }
